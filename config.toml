@@ -12,6 +12,7 @@ exclusive-patches = true
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+apkmirror-arch = "arm64-v8a"
 excluded-patches = "bypass-certificate-checks vanced-microg-support"
 
 [Tiktok]
