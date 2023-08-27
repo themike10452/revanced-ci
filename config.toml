@@ -18,4 +18,5 @@ build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
 included-patches = "background-play minimized-playback-music music-video-ads"
+excluded-patches = "vanced-microg-support"
 exclusive-patches = true
