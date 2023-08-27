@@ -1,8 +1,6 @@
 logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 build-mindetach-module = true
-patches-version = "v2.187.0"
-integrations-version = "v0.115.1"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -17,6 +15,5 @@ exclusive-patches = true
 build-mode = "module"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
-included-patches = "background-play minimized-playback-music music-video-ads"
-excluded-patches = "vanced-microg-support"
+included-patches = "background-play minimized-playback-music music-video-ads exclusive-audio-playback hide-get-premium upgrade-button-remover"
 exclusive-patches = true
