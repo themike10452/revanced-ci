@@ -15,5 +15,5 @@ exclusive-patches = true
 build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "arm64-v8a"
-included-patches = "background-play bypass-certificate-checks codecs-unlock exclusive-audio-playback hide-get-premium minimized-playback-music upgrade-button-remover music-video-ads"
+included-patches = "background-play bypass-certificate-checks codecs-unlock hide-get-premium minimized-playback-music upgrade-button-remover music-video-ads"
 exclusive-patches = true
