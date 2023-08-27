@@ -3,8 +3,6 @@ microg_patch: Vanced MicroG support
 Music: 6.16.52  
 microg_patch: Vanced MicroG support  
 
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
-
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
 ---
 Changelog:  
