@@ -374,6 +374,7 @@ build_rv() {
 	if [ "${args[merge_integrations]}" = true ]; then p_patcher_args+=("-m ${args[integ]}"); fi
 	local microg_patch
 	microg_patch=$(jq -r ".[] | select(.compatiblePackages[].name==\"${pkg_name}\") | .name" "${args[ptjs]}" | grep -iF microg || :)
+ 	log "microg_patch: ${microg_patch}"
 	if [ "$microg_patch" ]; then
 		microg_patch="${microg_patch,,}"
 		microg_patch="${microg_patch// /-}"
