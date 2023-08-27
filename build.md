@@ -1,5 +1,7 @@
 YouTube: 18.23.35  
+microg_patch: Vanced MicroG support  
 Music: 6.16.52  
+microg_patch: Vanced MicroG support  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
